@@ -1,0 +1,100 @@
+sequence,label
+write getpid fstat close write getpid rt_sigprocmask poll open write fstat ppoll poll clock_gettime clock_gettime brk brk lseek access getpid close brk lseek stat getpid write munmap mmap mmap fstat open rt_sigaction write dup read lseek ppoll access mmap stat read select getuid dup2 getgid access munmap brk getgid close mmap select clock_gettime clock_gettime read ppoll rt_sigprocmask fstat rt_sigaction fstat,normal
+access stat access getgid execve read open rename write fsync write socket socket recvfrom sendto recvfrom sendto,attack
+munmap stat dup2 rt_sigprocmask write read write ppoll getuid brk read munmap dup2 rt_sigprocmask dup2 getgid open clock_gettime select rt_sigprocmask fstat select write brk brk dup access fstat rt_sigprocmask close dup access lseek select ppoll close getpid rt_sigprocmask getuid rt_sigprocmask open mmap open dup access getgid lseek read access dup read rt_sigaction read getpid getpid write rt_sigaction,normal
+getgid stat uname getgid write read write read open open write sendto socket recvfrom socket,attack
+access getgid read fstat select stat write dup poll rt_sigaction getuid getuid stat write brk brk rt_sigaction getpid select dup2 write munmap mmap getgid,normal
+getuid uname getuid getuid open execve read execve write open rename rename socket sendto connect sendto,attack
+close open munmap dup getuid lseek clock_gettime getpid getuid select rt_sigaction stat stat read getpid read lseek read rt_sigaction dup rt_sigprocmask read rt_sigprocmask,normal
+getuid getuid stat uname write open open write chown setuid chmod write open sendto close close socket recvfrom,attack
+dup2 read stat fstat dup access access munmap close getgid clock_gettime ppoll dup2 select open getuid lseek select dup write write write poll fstat ppoll clock_gettime stat ppoll fstat rt_sigaction access getgid write brk lseek open getpid select fstat getpid poll brk open read access access poll getgid poll close write lseek access getuid getgid access,normal
+access access getgid uname execve write execve open open execve setuid chmod setgid rename rename rename socket recvfrom connect socket sendto,attack
+getuid rt_sigaction lseek getuid fstat open stat mmap access dup2 lseek select munmap dup2 rt_sigprocmask dup write dup2 close dup2 fstat write brk getpid lseek ppoll rt_sigprocmask munmap poll fstat clock_gettime open,normal
+getgid getuid access getgid write open execve write write setgid setuid setgid chown fsync open fsync write connect connect recvfrom,attack
+select rt_sigaction brk stat rt_sigaction access getuid close read rt_sigprocmask ppoll mmap getgid getpid select stat stat open fstat rt_sigaction getgid read brk ppoll stat clock_gettime rt_sigaction fstat select open getpid getpid write brk close dup2 rt_sigprocmask read fstat getgid rt_sigaction getuid select dup2 ppoll dup access ppoll clock_gettime rt_sigprocmask getgid poll access getpid rt_sigaction fstat fstat select,normal
+access getgid getuid getgid getgid getgid open open write write write sendto connect sendto close sendto recvfrom,attack
+munmap open mmap getpid getgid dup brk getpid poll ppoll stat stat brk open mmap select munmap close rt_sigaction write ppoll open munmap poll open select write rt_sigaction read munmap stat mmap getpid munmap getpid getgid fstat read open rt_sigprocmask dup2 mmap select getuid select getpid dup stat open close write select poll stat clock_gettime getpid,normal
+access stat access access execve open open read write fsync open socket recvfrom close recvfrom,attack
+getuid poll open rt_sigprocmask select read select open brk rt_sigaction brk mmap access rt_sigaction close close rt_sigprocmask select ppoll dup getuid rt_sigaction getgid ppoll mmap fstat dup,normal
+stat getgid uname access getgid read read read setgid chown chmod fsync fsync open recvfrom sendto recvfrom recvfrom,attack
+brk open lseek munmap fstat select munmap poll mmap dup2 poll mmap brk lseek fstat clock_gettime lseek getpid dup clock_gettime stat getpid lseek poll getpid ppoll dup2 getgid lseek mmap lseek clock_gettime write read read lseek dup select getpid write open lseek rt_sigaction mmap dup2 fstat getgid write read rt_sigaction poll,normal
+getuid stat stat execve open execve open fsync write write connect recvfrom recvfrom recvfrom close connect,attack
+fstat read fstat poll close munmap clock_gettime rt_sigaction open lseek lseek getgid read fstat fstat getuid poll getuid stat write stat close fstat close read getuid ppoll getgid dup brk rt_sigaction lseek munmap,normal
+uname uname getuid getuid uname write open open write execve chown chmod fsync rename open close socket sendto recvfrom sendto socket,attack
+munmap mmap write close brk rt_sigaction select munmap getpid open read fstat write getpid access getgid open access rt_sigaction read rt_sigprocmask ppoll rt_sigaction brk read fstat write lseek access rt_sigaction open ppoll getuid clock_gettime lseek open munmap stat getgid write dup select,normal
+uname access uname getgid execve open write read execve write write rename connect recvfrom connect socket recvfrom close,attack
+dup2 rt_sigaction close rt_sigprocmask mmap poll rt_sigprocmask rt_sigaction mmap stat clock_gettime poll fstat getuid open getpid clock_gettime getuid munmap select getgid dup2 rt_sigaction open rt_sigprocmask poll access access brk rt_sigprocmask rt_sigaction clock_gettime brk select close rt_sigaction dup2 mmap clock_gettime select getgid getgid getgid munmap lseek clock_gettime getpid access open read ppoll dup dup2 getpid brk write ppoll,normal
+uname access stat read open read chmod chmod open open recvfrom connect close socket sendto connect,attack
+select access rt_sigaction lseek poll read dup dup2 lseek dup2 clock_gettime rt_sigaction lseek dup2 getgid write munmap mmap lseek clock_gettime open getgid munmap open access getuid dup2 dup getpid getgid access getuid fstat getuid stat stat,normal
+access access access stat access read read write rename write socket socket sendto close sendto close,attack
+fstat getgid rt_sigaction getuid getpid mmap write dup2 close dup2 getgid clock_gettime dup2 dup2 getuid munmap getuid open rt_sigprocmask rt_sigaction select select poll getgid dup write fstat open access poll,normal
+access access uname access open open open execve open open setgid chmod chmod write fsync open write close recvfrom close,attack
+open munmap brk dup getgid write clock_gettime rt_sigprocmask dup2 mmap munmap stat write getgid rt_sigaction select select ppoll open getuid fstat write poll read getpid stat stat access mmap close access open getgid close write fstat close,normal
+getuid getgid access open read open read open chown chmod setuid open fsync fsync rename sendto close socket sendto sendto,attack
+rt_sigaction dup read read ppoll read lseek ppoll poll mmap dup2 rt_sigprocmask brk ppoll write clock_gettime getgid select getpid clock_gettime stat brk fstat mmap brk brk,normal
+getgid getgid getgid write read open open chmod chown chmod chmod fsync fsync write rename close recvfrom close recvfrom connect sendto,attack
+close rt_sigaction getgid mmap poll write lseek stat brk poll getpid ppoll select poll ppoll select clock_gettime open lseek getpid dup mmap close close select read getpid dup2 write rt_sigprocmask munmap brk close,normal
+access access uname getuid getuid execve open open read setgid setgid chown setuid open fsync fsync socket connect sendto socket connect,attack
+getpid getpid lseek write rt_sigaction brk write rt_sigprocmask fstat poll select mmap munmap getpid brk rt_sigaction read lseek brk munmap select lseek munmap dup2 close dup rt_sigaction clock_gettime mmap brk write brk munmap,normal
+getgid getgid getgid execve open write write open fsync rename rename socket connect socket socket,attack
+close getuid rt_sigaction getpid getpid brk dup poll ppoll ppoll access ppoll close read brk lseek lseek read rt_sigprocmask lseek brk read getgid read,normal
+access uname uname read execve write chmod chown setgid rename open fsync connect sendto sendto,attack
+ppoll munmap dup munmap getuid select read ppoll mmap mmap poll munmap fstat getgid dup2 ppoll close read select dup lseek select select write clock_gettime read poll select mmap write clock_gettime dup dup2 dup write select rt_sigprocmask open lseek dup mmap getpid stat dup2 close lseek getuid rt_sigprocmask rt_sigprocmask getpid rt_sigprocmask select access,normal
+uname getuid getuid access write open read write write fsync write fsync close recvfrom close socket recvfrom,attack
+dup2 rt_sigaction lseek munmap rt_sigprocmask dup2 getuid getuid close fstat select access poll write getgid getgid lseek getpid lseek access close brk dup stat brk mmap open read rt_sigprocmask fstat dup2 munmap open dup getgid select getuid close lseek getgid clock_gettime close clock_gettime brk open read fstat getgid poll clock_gettime rt_sigprocmask write lseek lseek read brk,normal
+getuid stat uname uname access uname read open read write setuid chown setuid chmod rename fsync open rename recvfrom close connect,attack
+mmap read fstat select write poll getpid write mmap mmap select getgid clock_gettime dup2 rt_sigaction stat write clock_gettime dup open stat,normal
+stat getgid getgid getgid read execve open read execve execve chown setgid fsync rename write sendto sendto close sendto,attack
+clock_gettime read ppoll getgid poll mmap read select lseek ppoll brk clock_gettime mmap open access mmap dup2 lseek dup2 dup read select mmap getuid select,normal
+getuid access access open open write setuid setuid setgid setgid rename fsync fsync connect connect close socket socket sendto,attack
+write getuid clock_gettime stat ppoll clock_gettime dup2 stat write read close clock_gettime dup2 getuid dup2 dup2 select clock_gettime poll lseek lseek close clock_gettime clock_gettime close mmap stat dup2 getuid fstat rt_sigaction mmap poll rt_sigaction dup2 write access read munmap clock_gettime rt_sigaction brk brk poll write lseek read rt_sigaction rt_sigprocmask write getgid poll poll getpid write,normal
+stat uname getgid read write read execve write fsync socket connect sendto sendto socket,attack
+close select clock_gettime ppoll getgid poll getgid open read select poll select getpid brk select rt_sigaction ppoll lseek dup2 rt_sigaction getuid clock_gettime lseek read read brk rt_sigaction stat ppoll lseek clock_gettime getpid getgid dup2 write munmap poll mmap rt_sigaction fstat fstat write lseek munmap ppoll fstat access close mmap poll lseek getpid rt_sigaction rt_sigprocmask rt_sigaction lseek open,normal
+uname stat getgid getgid getuid uname read open open open read read setgid chmod write write sendto recvfrom connect close recvfrom socket,attack
+munmap getuid mmap dup getpid stat rt_sigprocmask rt_sigprocmask open close mmap rt_sigaction rt_sigaction ppoll rt_sigprocmask mmap ppoll close dup2 getpid lseek mmap getgid rt_sigprocmask clock_gettime lseek,normal
+getgid access stat execve write write open read fsync fsync fsync open socket recvfrom socket close socket socket,attack
+brk brk stat rt_sigprocmask ppoll rt_sigaction getgid getpid clock_gettime rt_sigprocmask poll dup2 rt_sigaction munmap dup2 rt_sigaction rt_sigprocmask poll select access select getuid fstat rt_sigaction dup2 lseek lseek dup dup2 getpid clock_gettime clock_gettime rt_sigaction rt_sigaction poll dup clock_gettime lseek poll rt_sigprocmask,normal
+stat stat stat getgid getgid access execve write write open execve chmod setuid chmod chmod open rename recvfrom socket sendto recvfrom,attack
+select close dup2 dup2 close select access rt_sigaction select getpid lseek lseek read getpid select fstat getpid getgid open dup brk getgid dup open getgid getuid,normal
+stat stat stat stat read write execve chown chmod setgid rename write close connect recvfrom recvfrom,attack
+open mmap lseek select stat ppoll select munmap brk mmap munmap write dup2 rt_sigaction dup open munmap brk fstat mmap poll poll fstat mmap fstat select rt_sigaction close clock_gettime dup access,normal
+access access stat getgid getgid read read execve read rename rename rename recvfrom sendto recvfrom sendto,attack
+clock_gettime read poll read poll rt_sigprocmask poll close mmap rt_sigprocmask write stat poll write rt_sigprocmask getuid brk rt_sigprocmask rt_sigaction read rt_sigaction getuid clock_gettime munmap getuid getpid poll open mmap read dup2 dup read dup open munmap getpid getpid dup2 select brk dup2 munmap access access munmap clock_gettime select rt_sigprocmask select mmap close rt_sigprocmask,normal
+access getgid getuid getuid read write read read open setgid chown rename open fsync fsync connect socket sendto,attack
+ppoll clock_gettime read getpid munmap fstat stat access read rt_sigprocmask lseek getuid getpid mmap ppoll select mmap lseek close select stat lseek read dup access dup ppoll brk rt_sigaction dup2 dup select getuid mmap brk close munmap getpid rt_sigaction getgid lseek clock_gettime getuid dup poll dup2 poll write,normal
+getgid getgid getuid uname open write open read write open rename sendto close connect close,attack
+stat stat getpid getpid getpid dup clock_gettime clock_gettime munmap fstat mmap lseek rt_sigaction select lseek mmap access rt_sigaction getuid clock_gettime,normal
+stat getgid uname uname getgid open write write write setgid setgid write fsync connect close close recvfrom sendto,attack
+getpid mmap close poll stat access dup2 dup2 rt_sigprocmask getgid read getuid read open close ppoll read close stat rt_sigaction read select dup dup select open rt_sigprocmask brk open clock_gettime,normal
+getuid stat access stat stat execve write open rename write write close sendto connect recvfrom connect,attack
+select getgid getpid write munmap poll read open close rt_sigaction brk getuid poll getgid write rt_sigprocmask open stat access access rt_sigaction read read dup access,normal
+getuid stat getuid write execve write read chmod chmod fsync fsync write recvfrom recvfrom socket recvfrom,attack
+read brk getgid mmap getpid dup2 munmap getuid open lseek dup2 rt_sigaction mmap dup brk select select read ppoll getuid clock_gettime read close clock_gettime ppoll getpid lseek write open lseek mmap fstat write stat brk poll munmap open mmap write ppoll mmap,normal
+getuid uname access access uname stat write open read open setuid setuid setgid write open write recvfrom sendto recvfrom sendto,attack
+lseek dup mmap ppoll getuid mmap mmap getuid getgid dup2 write mmap dup stat lseek dup2 dup2 lseek clock_gettime rt_sigaction poll fstat munmap getuid munmap write poll ppoll,normal
+access uname stat uname read read write execve fsync open write recvfrom recvfrom recvfrom socket close,attack
+poll rt_sigprocmask dup access brk open dup2 clock_gettime getuid ppoll dup write fstat select close ppoll poll select select dup2 mmap getuid write write stat getpid poll clock_gettime stat munmap rt_sigaction select clock_gettime close dup2 rt_sigaction lseek dup read getgid getpid mmap mmap getuid rt_sigprocmask mmap write clock_gettime brk read,normal
+stat getuid stat write open execve chmod setgid rename open write socket recvfrom connect recvfrom,attack
+brk brk open stat lseek clock_gettime getuid poll getuid rt_sigprocmask munmap stat write select rt_sigaction dup2 lseek munmap munmap write mmap rt_sigaction close select getuid dup poll select lseek fstat write munmap,normal
+uname uname getuid getgid read write execve execve setgid setuid rename fsync rename sendto socket connect,attack
+rt_sigprocmask rt_sigaction clock_gettime brk getgid rt_sigaction read open getpid lseek lseek rt_sigprocmask close rt_sigaction getpid getpid poll write write getuid getgid munmap getgid open clock_gettime poll dup2 write getgid getpid lseek dup2 brk mmap getuid brk dup2 getuid fstat getuid poll mmap clock_gettime ppoll close close stat stat read mmap lseek rt_sigprocmask mmap clock_gettime lseek,normal
+stat uname stat stat getuid execve execve execve open execve open rename fsync socket recvfrom recvfrom connect socket recvfrom,attack
+munmap getpid clock_gettime access rt_sigaction rt_sigaction poll access getgid write dup2 ppoll clock_gettime getgid getuid munmap dup2 getgid rt_sigaction mmap lseek poll write getgid getuid,normal
+getuid access stat open execve read setuid chmod setuid write rename rename open connect connect close socket connect,attack
+clock_gettime getpid brk write write stat read ppoll rt_sigprocmask brk open mmap write getgid clock_gettime rt_sigaction fstat read getuid write munmap lseek munmap getuid access select select read poll ppoll close mmap stat getpid dup ppoll brk stat access,normal
+access uname getgid stat execve open write open write rename fsync rename connect recvfrom socket connect recvfrom,attack
+rt_sigaction write rt_sigaction ppoll rt_sigprocmask dup2 dup2 dup write getgid poll munmap clock_gettime getpid dup getpid open read fstat open read getuid rt_sigprocmask ppoll rt_sigprocmask brk clock_gettime read rt_sigprocmask ppoll lseek lseek rt_sigprocmask stat getuid,normal
+getgid access stat access getuid write execve open open read read fsync fsync open recvfrom recvfrom socket,attack
+rt_sigprocmask getuid clock_gettime close write getuid fstat access getpid open getuid fstat read clock_gettime poll read rt_sigaction mmap rt_sigaction poll munmap fstat write poll clock_gettime fstat rt_sigprocmask open getgid fstat rt_sigaction munmap close dup getgid poll dup getpid brk mmap brk clock_gettime,normal
+stat uname getuid access getuid execve execve execve open chown setgid setuid open open fsync recvfrom connect connect close close,attack
+getpid poll getuid close dup open rt_sigprocmask ppoll clock_gettime open mmap getpid munmap getpid lseek stat dup2 brk dup2 dup2 close lseek open fstat getgid brk access rt_sigaction getpid poll rt_sigprocmask select,normal
+getuid uname uname stat getgid getgid execve read execve read read setuid chown open open connect socket connect recvfrom sendto sendto,attack
+read getuid lseek clock_gettime ppoll stat getgid close clock_gettime dup2 munmap read lseek getgid close dup getgid poll poll write write getuid write read getuid stat stat,normal
+getgid access access uname getgid stat execve open write rename rename socket close socket close sendto,attack
+rt_sigaction munmap brk mmap access lseek brk close ppoll ppoll select rt_sigaction access rt_sigaction read munmap brk select getuid fstat dup2 rt_sigprocmask open munmap clock_gettime rt_sigaction getuid mmap poll mmap fstat open ppoll open getuid lseek getuid rt_sigaction mmap poll fstat close fstat fstat rt_sigprocmask,normal
+access stat uname read execve execve open write execve open fsync rename fsync close close close sendto,attack
+rt_sigaction read fstat stat rt_sigprocmask open dup stat write clock_gettime dup getgid mmap open poll dup getuid getgid getgid dup2 munmap dup munmap write lseek close close dup getuid dup2 select,normal
+access uname stat access open write open read write setuid chmod chmod chown open fsync rename rename recvfrom socket sendto connect,attack
+fstat dup2 close access read clock_gettime select access brk fstat fstat read fstat write open munmap getpid dup2 access rt_sigaction munmap poll write rt_sigaction,normal
+getuid getuid stat getgid read open read execve open setgid chown fsync write fsync socket socket connect socket recvfrom recvfrom,attack
+fstat lseek fstat read poll getgid close mmap brk lseek select ppoll stat open close lseek read getgid lseek munmap rt_sigaction select write rt_sigprocmask stat access munmap brk fstat rt_sigaction stat fstat read getpid select read mmap rt_sigprocmask dup2 poll poll getgid getgid brk rt_sigprocmask access rt_sigaction access rt_sigaction read access clock_gettime rt_sigprocmask access,normal
